@@ -104,7 +104,7 @@
                 case 'popular':
                     return arr.filter(c => c.like)
                 case 'mostViewers':
-                    return arr.filter(c => c.viewers > 500)
+                    return arr.filter(c => c.viewers > 100)
                 default:
                     return arr
                 }
